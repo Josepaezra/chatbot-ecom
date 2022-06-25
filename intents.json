@@ -1,0 +1,81 @@
+{
+  "intents": [
+    {
+      "tag": "Disponibilidad",
+      "patterns": [
+        "Hola tiene disponible ",
+        "aun cuentan con el equipo?",
+        "tendrán una?",
+        "Disponibilidad del",
+        "tienen el ",
+        "Venden"
+      ],
+      "responses": [
+        "Buenas, gracias por comunicarse, si tenemos disponible, para mas información comunicarse con 0401 2345678",
+        "Buenas, gracias por acercarse, si tenemos disponible, para saber mas comunicarse al 0401 2345678"
+              ]
+    },
+    {
+      "tag": "Interés",
+      "patterns": ["Estoy interesado en un ", "estoy interesada en una ", "Me interesa"],
+      "responses": [
+        "Bienvenido, gracias por el interés, para mas información comunicarse al 0401 2345678, tenga un buen día",
+        "Hola! Gracias por el acercamiento, si desea saber algo comuniquese al 0401 2345678, vuelva pronto ;)"      ]
+    },
+    {
+      "tag": "Ubicación",
+      "patterns": ["Tienda física en ", "Donde esta ubicada la tienda ", "dónde se encuentran ubicados", "Thank's a lot!"],
+      "responses": ["Estamos ubicados en Caracas, en el centro comercial XYZ, acerquese de Lunes a Viernes a las x horas", "La tienda está ubicada en el centro comercial VBN, acerquese para que conozca nuestros productos", "En el centro comercial XYZ nos puede encontrar, son todos bienvenidos a conocer nuestros productos de primera mano"]
+    },
+    {
+      "tag": "Delivery",
+      "patterns": [
+        "hacen entrega a ?",
+        "usted realizan envío a ?",
+        "hacen delivery?",
+        "realizan despacho a?"
+      ],
+      "responses": [
+        "Entregamos en Caracas, en las Zonas X, Y y Z, en centros comerciales.",
+        "Relizamos delivery en su hogar si está en Caracas, Entre 2 a 4 dias concretada la compra, para mas información comunicarse por whatsapp al 0401 1234567 "
+      ]
+    },
+    {
+      "tag": "Forma de Pago",
+      "patterns": [
+        "Tipo de pago que acepta?",
+        "Trabaja con tarjeta de crédito?",
+        "aceptas Paypal?"
+      ],
+      "responses": [
+        "Aceptamos transferencias de cualquier banco y efectivo en la tienda, algunas tarjetas de crédito y otras opciones. Comuniquese al 0420 1234567 por whatsapp",
+        "Trabajamos con la mayoría de tarjetas de crédito, efectivo, transferencias, entre otros"
+      ]
+    },
+    {
+      "tag": "Precio",
+      "patterns": [
+        "que precio tiene?",
+        "en cuánto me sale una ?",
+        "que costo la ?",
+        "en cuanto quedaría?"
+      ],
+      "responses": [
+        "El precio del artículo está en la publicación, cualquier duda comunicarse al 0401 2345678",
+        "Para mas información sobre precios y promociones comunicarse al 0412 3456789"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
